@@ -1,7 +1,7 @@
 print('$'*60)
 def reverse(x):
     return x[::-1]
-a=input("Enter a string to be reversed :\n") 
+a=input("Enter a string :\n") 
 print("\nThe reversed string is :\n")
 print(reverse(a))
 print('$'*60)
