@@ -1,0 +1,7 @@
+print('*'*60,'\n')
+print ("    Miles                |               Kilometers",'\n')
+print('*'*60,'\n')
+for i in range (10, 100,10):
+    print('     {}                  |                {}'.format(i, i* 1.609344))
+print()
+print('*'*60)
