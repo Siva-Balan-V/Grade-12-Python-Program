@@ -1,0 +1,14 @@
+print('/'*60)
+w=1
+n=0
+a=input('Enter a Sentence :')
+print()
+for i in a:
+    if i==' ':
+        w+=1
+    if i.isalnum():
+        n+=1
+print('Number of Charecters                   :',len(a),'\n')
+print('Number of Words                        :',w,'\n')
+print('Percentage of Alpha Numeric Charecters :',(n/len(a))*100,'\n')
+print('/'*60)
