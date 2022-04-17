@@ -1,0 +1,11 @@
+print('$'*60)
+a=input("Enter the First Time : ")
+b=input("Enter the Second Time : ")
+print()
+fmin=int(a[:2])*60+int(a[2:4])
+smin=int(b[:2])*60+int(b[2:4])
+dif=smin-fmin
+hour=dif//60
+min=dif%60
+print(hour,"hours",min,"minutes\n")
+print('$'*60)
