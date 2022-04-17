@@ -1,0 +1,11 @@
+print('# '*32)
+List=eval(input('Enter a List :'))
+print()
+print('Original List :',List,'\n')
+lw=0
+for i in range(len(List)):
+    if len(List[i]) > lw:
+        word=List[i]
+        lw=len(List[i])
+print("The longest word in the given list of words is : ", word,'\n')
+print('# '*32)
