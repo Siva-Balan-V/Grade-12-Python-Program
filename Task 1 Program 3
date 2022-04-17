@@ -1,0 +1,10 @@
+print('^'*60)
+def chk(a):
+    if a%2==0:
+        print(a,'is Even Number')
+    else:
+        print(a,'is Odd Number')
+x=int(input('Enter a Number :'))
+chk(x)
+print()
+print('^'*60)
