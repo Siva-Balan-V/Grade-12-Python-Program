@@ -1,0 +1,10 @@
+print('% '*30)
+a=int(input('Enter a Number :'))
+if a<0:
+    print('Negative')
+elif a>0:
+    print('Positive')
+else:
+    print('Zero')
+print()
+print('% '*30)
