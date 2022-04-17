@@ -1,0 +1,8 @@
+print('='*60)
+months=["January","February","March", "April","May","June", "July","August",
+        "September","October","November", "December"]
+datestr=(input("Enter the date in the format 'MMDDYYYY' :"))
+mon=int(datestr[0:2])-1
+print()
+print(months[mon]+' '+ datestr[2:4]+',' + datestr[4:])
+print('='*60)
