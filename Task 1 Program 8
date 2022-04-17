@@ -1,0 +1,12 @@
+print('!'*60)
+def sec(days):
+    return days*60*60
+y=int(input('Enter the Year :'))
+if y%4==0 and y%100!=0:
+    print('Number of Seconds in',y,'is',sec(366))
+elif y%100==0 and y%400==0:
+    print('Number of Seconds in',y,'is',sec(366))
+else:
+    print('Number of Seconds in',y,'is',sec(365))
+print()
+print('!'*60)
