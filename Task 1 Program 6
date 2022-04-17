@@ -1,0 +1,20 @@
+print('8'*60)
+i=input('Enter a String :')
+u=l=v=c=s=0
+for a in i:
+    if a.isupper():
+        u+=1
+    if a.islower():
+        l+=1
+    if a in 'aeiouAEIOU':
+        v+=1
+    if a.isalpha() and a not in 'aeiouAEIOU':
+        c+=1
+    if a.isspace():
+        s+=1
+print('Uppercase Letters :',u)
+print('Lowercase Letters :',l)
+print('Vowel Letters :',v)
+print('Consonant Letters :',c)
+print('Space Charecters :',s)
+print('8'*60)
