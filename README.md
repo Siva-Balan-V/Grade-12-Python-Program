@@ -48,6 +48,8 @@ This repository is organized into two main tasks, each containing multiple Pytho
 | Program 14 | Recursion examples |
 | Program 15 | Calculate angle sum of n-sided polygon |
 
+*Note: Programs 6, 7, and 8 are not present in this task.*
+
 ## 🎯 Topics Covered
 
 - **Basic Input/Output**: Using `input()` and `print()` functions
@@ -75,11 +77,11 @@ This repository is organized into two main tasks, each containing multiple Pytho
 
 3. **Run any program**:
    ```bash
-   python "Task 1  Program 1"
+   python "Task 1  Program 1"  # Note: Program 1 has two spaces
    ```
    or
    ```bash
-   python "Task 2 Program 1"
+   python "Task 1 Program 2"  # Other programs have single space
    ```
 
 ## 💡 Usage Examples
@@ -127,7 +129,8 @@ This repository helps students:
 
 Programs follow the naming pattern:
 - `Task [Task Number] Program [Program Number]`
-- Example: `Task 1 Program 1`, `Task 2 Program 15`
+- Example: `Task 1 Program 2`, `Task 2 Program 15`
+- *Note: `Task 1  Program 1` has two spaces (file naming inconsistency)*
 
 ## 🤝 Contributing
 
